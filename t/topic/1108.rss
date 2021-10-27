@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>论坛在web.archive.org上的备份</title>
+    <link>https://mlmmlm.icu/t/topic/1108</link>
+    <description>我们组织的五位同志熬夜把论坛上我们认为有价值的帖子备份到了 web.archive.org。
+但目前有个问题，根据url论坛的帖子在1000以上。我们只备份了有分类的帖子，而这只占全部帖子的一小部分，有什么原因吗。
+
+只有四个同志的备份，剩下一个同志要备份的最多，要明天才有。这是备份索引[mlmmlmbackups.md|attachment](upload://dR2aZeoiVzwyEHHwDY2QiSWXjpP.md) (19.4 KB)</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 22 Oct 2021 08:28:18 +0000</lastBuildDate>
+    <category>一般讨论</category>
+    <atom:link href="https://mlmmlm.icu/t/topic/1108.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <p>我想说的是或许有一些自动化的手段来帮助我们去完成备份这件事<img src="https://mlmmlm.icu/images/emoji/twitter/joy.png?v=10" title=":joy:" class="emoji" alt=":joy:">没有看轻你们工作成果的意思</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/12">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/12</link>
+        <pubDate>Fri, 22 Oct 2021 08:28:18 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-12</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>for better experience,in case  --convert-links not working:</p>
+<pre><code class="lang-auto">import os
+
+base_path = r'/xxxx/xxxx/mlmmlm-icu-bcakup-master'
+
+
+def find_all_file(base):
+    for root, ds, fs in os.walk(base):
+        for f in fs:
+            if f.endswith('.html'):
+                fullname = os.path.join(root, f)
+                yield fullname
+
+
+def main():
+    base = base_path
+    for i in find_all_file(base):
+        try:
+            print(i)
+            fin = open(i, "rt", encoding="utf-8")
+            data = fin.read()
+            data = data.replace('https://mlmmlm.icu', r"file:///" + base_path)
+            data = data.replace('/stylesheets/', r"file:///" + base_path + "/stylesheets/")
+
+            fin.close()
+            fin = open(i, "wt", encoding="utf-8")
+            fin.write(data)
+            fin.close()
+        except Exception:
+            print("Error :" + i)
+
+
+if __name__ == '__main__':
+    main()
+
+</code></pre>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/11">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/11</link>
+        <pubDate>Fri, 22 Oct 2021 06:03:47 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-11</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>但是似乎–convert-links无法起作用，点击备份文件的超链接会自动转跳到因特网的链接。<br>
+而且CSS完全没法用。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/10">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/10</link>
+        <pubDate>Fri, 22 Oct 2021 05:08:42 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-10</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>我改了描述，我不擅長表達，誠然，selenium gecko driver的備份肯定是最好的，這可以為所有這類網站的傳播加快速度。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/9">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/9</link>
+        <pubDate>Fri, 22 Oct 2021 05:05:22 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-9</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>你用什么代码备份离线浏览没问题。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/8">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/8</link>
+        <pubDate>Fri, 22 Oct 2021 05:04:32 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-8</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>這邊沒有離線瀏覽問題，反而是<a href="https://mlmmlm.icu/t/topic/172">那個帖子</a>的第一行代碼有。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/7">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/7</link>
+        <pubDate>Fri, 22 Oct 2021 04:55:24 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-7</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>十分感谢。<br>
+事实上discourse的系统会自动生成备份，可以完成网站的迁移，但是包含了账户的信息所以不能分享给你们。<br>
+关于用web.archive.org我记得有人做过脚本，但不知道这个网站有没有频率限制，脚本我还没有实际使用过。<br>
+web.archive.org可以备份文字，似乎附加文件没办法备份，但是wget可以。而且wget备份的文件也可以作为静态网站的。<br>
+但是有一个问题必须加-E才能把每个页面的第一页备份下来，否则跟文件夹重名，无法创建文件。<br>
+<code>wget --wait=0.3 -rkp -E -e robots=off https://mlmmlm.icu</code><br>
+但是加了-E选项会带来一个问题，选项 --convert-links无法起作用，给离线的浏览带来困难。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/6">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/6</link>
+        <pubDate>Fri, 22 Oct 2021 04:52:19 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-6</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>要有<a href="https://en.wikipedia.org/wiki/Fediverse" rel="noopener nofollow ugc">Fediverse</a>的精神才行。重複工作（似文件P2P複製）就是隨想Resilio的工作原理，人家現在人雖然進去了，但是文件全都在，還可下載。<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://mlmmlm.icu/uploads/default/original/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63.png" data-download-href="https://mlmmlm.icu/uploads/default/203054bfcd7c79451952124e4611c09c0dcdce63" title="Screenshot from 2021-10-22 00-47-49"><img src="https://mlmmlm.icu/uploads/default/optimized/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63_2_690x144.png" alt="Screenshot from 2021-10-22 00-47-49" data-base62-sha1="4AKPkh20v31y7K4VtwIHiMZoOLF" width="690" height="144" srcset="https://mlmmlm.icu/uploads/default/optimized/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63_2_690x144.png, https://mlmmlm.icu/uploads/default/original/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63.png 1.5x, https://mlmmlm.icu/uploads/default/original/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63.png 2x" data-small-upload="https://mlmmlm.icu/uploads/default/optimized/2X/2/203054bfcd7c79451952124e4611c09c0dcdce63_2_10x10.png"></a></div><br>
+<img src="https://mlmmlm.icu/uploads/default/original/2X/1/17f3cc8a171816b1d841c57d31f29797e4aafe3f.png" alt="Screenshot from 2021-10-22 00-49-03" data-base62-sha1="3pTjLcopwlHNfuqlW1aRTHduOMn" width="294" height="202"><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://mlmmlm.icu/uploads/default/original/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298.png" data-download-href="https://mlmmlm.icu/uploads/default/94685a21b6f5b0103cf7e5507cd6bc1690964298" title="Screenshot from 2021-10-22 00-49-14"><img src="https://mlmmlm.icu/uploads/default/optimized/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298_2_690x183.png" alt="Screenshot from 2021-10-22 00-49-14" data-base62-sha1="laSeOpnf4p7oSqc3k6rncZYMCIU" width="690" height="183" srcset="https://mlmmlm.icu/uploads/default/optimized/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298_2_690x183.png, https://mlmmlm.icu/uploads/default/original/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298.png 1.5x, https://mlmmlm.icu/uploads/default/original/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298.png 2x" data-small-upload="https://mlmmlm.icu/uploads/default/optimized/2X/9/94685a21b6f5b0103cf7e5507cd6bc1690964298_2_10x10.png"></a></div><p></p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/5">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/5</link>
+        <pubDate>Fri, 22 Oct 2021 04:41:42 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-5</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[midnight]]></dc:creator>
+        <description><![CDATA[
+            <p>1.站长已经做过那种备份，就不重复工作了。<br>
+2.备份在 <a href="http://archive.org" rel="noopener nofollow ugc">archive.org</a> 上更容易访问和分享，想看的人不需要到处问谁备份了<br>
+3.以站长的方式备份下来的文件适合重建网站，但不适合浏览帖子或分享</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/4">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/4</link>
+        <pubDate>Fri, 22 Oct 2021 04:04:38 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-4</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <p>事实上备份这事只需要输入一行代码。而且是全论坛备份。</p>
+<p>善用信息技术可成倍提高生产力。</p>
+<aside class="quote" data-post="1" data-topic="172">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/user_avatar/mlmmlm.icu/mlmmlm_admin/40/6_2.png" class="avatar">
+    <a href="https://mlmmlm.icu/t/topic/172">【重要】如何备份本站</a> <a class="badge-wrapper  bullet" href="https://mlmmlm.icu/c/9-category/9"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+  </div>
+  <blockquote>
+    只需要一行命令即可 
+wget --wait=1 --recursive --page-requisites --user-agent "Googlebot" https://mlmmlm.icu
+
+如果没有 
+--wait=1 会出现 ERROR 429: Too Many Requests. 
+欢迎大家备份。
+  </blockquote>
+</aside>
+
+          <p><a href="https://mlmmlm.icu/t/topic/1108/3">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/3</link>
+        <pubDate>Fri, 22 Oct 2021 01:20:16 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-3</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+      <item>
+        <title>论坛在web.archive.org上的备份</title>
+        <dc:creator><![CDATA[midnight]]></dc:creator>
+        <description><![CDATA[
+            <p>我们组织的五位同志熬夜把论坛上我们认为有价值的帖子备份到了 <a href="http://web.archive.org" rel="noopener nofollow ugc">web.archive.org</a>。<br>
+但目前有个问题，根据url论坛的帖子在1000以上。我们只备份了有分类的帖子，而这只占全部帖子的一小部分，有什么原因吗。</p>
+<p>只有四个同志的备份，剩下一个同志要备份的最多，要明天才有。这是备份索引<a class="attachment" href="https://mlmmlm.icu/uploads/short-url/dR2aZeoiVzwyEHHwDY2QiSWXjpP.md">mlmmlmbackups.md</a> (19.4 KB)</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1108/1">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1108/1</link>
+        <pubDate>Thu, 21 Oct 2021 15:22:49 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1108-1</guid>
+        <source url="https://mlmmlm.icu/t/topic/1108.rss">论坛在web.archive.org上的备份</source>
+      </item>
+  </channel>
+</rss>

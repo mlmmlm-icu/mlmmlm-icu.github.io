@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>想问一下密保方式都有什么</title>
+    <link>https://mlmmlm.icu/t/topic/1009</link>
+    <description>比如邮箱手机号交流工具销赃模式（指在狗特务闯进家门的时候快速消除重要文件）防止人肉的手段还有翻墙工具等等</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Sep 2021 15:47:30 +0000</lastBuildDate>
+    <category>闲谈 | 灌水</category>
+    <atom:link href="https://mlmmlm.icu/t/topic/1009.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[oneyouling]]></dc:creator>
+        <description><![CDATA[
+            <p>谢谢各位</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/9">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/9</link>
+        <pubDate>Sun, 05 Sep 2021 15:47:30 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-9</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>鉴于tails里除了onion没有自带的代理。<br>
+有三种办法：<br>
+1.使用支持openwrt的路由器<br>
+2.使用两台电脑，在v2ray设置“允许来自局域网的链接”<br>
+3.在linux系统的虚拟机中运行tails</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/8">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/8</link>
+        <pubDate>Sat, 04 Sep 2021 16:10:32 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-8</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[midnight]]></dc:creator>
+        <description><![CDATA[
+            <p>想要使talis自带其他代理软件，你需要解包iso自行添加软件并重新打包，再写入usb。<br>
+v2ray比ssr好</p>
+<p>不知talis是如何实现全局代理的？如果是iptables实现的透明代理，则可以通过更改iptables规则来关闭。</p>
+<p>tails的附加设置里有一个“启用不安全浏览器“选项，然后配置tor使用代理，在不连接到safe network的情况下使用unsafe browser，应该就可以使用tor。我并没有经过测试，可以看看这个https://anonymousplanet.org/guide.html#appendix-p-accessing-the-internet-as-safely-as-possible-when-tor-and-vpns-are-not-an-option</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/7">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/7</link>
+        <pubDate>Sat, 04 Sep 2021 10:32:07 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-7</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <p>用v2ray会好一些。</p>
+<p>你可能需要在另外一台计算机上配置代理。因为Tails的网络全部经过Tor。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/6">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/6</link>
+        <pubDate>Sat, 04 Sep 2021 07:54:53 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-6</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[mlmmlm_admin]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote quote-modified" data-post="8" data-topic="17">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/user_avatar/mlmmlm.icu/mlmmlm_admin/40/6_2.png" class="avatar">
+    <a href="https://mlmmlm.icu/t/topic/17/8">利用技术手段武装自己</a> <a class="badge-wrapper  bullet" href="https://mlmmlm.icu/c/9-category/9"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+  </div>
+  <blockquote>
+    使用LUKS的原因是： 
+1.一旦密钥被擦除，数据将无法恢复。 
+2.当LUSK head 被擦除，剩下的数据就看起来像随机数据。 
+所以我推荐，不要去记忆密码，使用密钥文件。 
+当遇到危险时，删除密钥文件和LUSK head。 
+使用密钥文件
+<a href="https://linuxconfig.org/how-to-use-a-file-as-a-luks-device-key" class="onebox" target="_blank" rel="noopener">https://linuxconfig.org/how-to-use-a-file-as-a-luks-device-key</a> 
+Wipe LUKS hea…
+  </blockquote>
+</aside>
+
+<aside class="onebox category-onebox" style="box-shadow: -5px 0px #9EB83B;">
+  <article class="onebox-body category-onebox-body">
+    <h3>
+      <a class="badge-wrapper bullet" href="https://mlmmlm.icu/c/9-category/9">
+          <span class="badge-category-bg" style="background-color: #9EB83B"></span>
+        <span class="clear-badge"><span>技术</span></span>
+      </a>
+    </h3>
+  </article>
+  <div class="clearfix"></div>
+</aside>
+
+          <p><a href="https://mlmmlm.icu/t/topic/1009/5">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/5</link>
+        <pubDate>Sat, 04 Sep 2021 07:54:08 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-5</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[ZSXZ]]></dc:creator>
+        <description><![CDATA[
+            <p>tails操作系統在國內比較尷尬，自帶的安全瀏覽器是無法使用的（要梯子）但我還沒研究出怎麼在這個系統裡裝SSR</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/4">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/4</link>
+        <pubDate>Sat, 04 Sep 2021 06:51:01 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-4</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[ZSXZ]]></dc:creator>
+        <description><![CDATA[
+            <p>signal（聊天消息閱後即焚）<br>
+veracrypt（將文件轉換成虛擬硬盤，可以在裡面存放重要文件，沒密碼打不開）</p>
+<p>riot不推薦，沒有閱後即焚需要手動刪聊天記錄而且現在註冊需要填郵箱</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/3">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/3</link>
+        <pubDate>Sat, 04 Sep 2021 06:49:41 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-3</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <p>使用自由软件与自由操作系统</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/2">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/2</link>
+        <pubDate>Fri, 03 Sep 2021 17:34:34 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-2</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+      <item>
+        <title>想问一下密保方式都有什么</title>
+        <dc:creator><![CDATA[oneyouling]]></dc:creator>
+        <description><![CDATA[
+            <p>比如邮箱手机号交流工具销赃模式（指在狗特务闯进家门的时候快速消除重要文件）防止人肉的手段还有翻墙工具等等</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1009/1">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1009/1</link>
+        <pubDate>Thu, 02 Sep 2021 12:21:56 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1009-1</guid>
+        <source url="https://mlmmlm.icu/t/topic/1009.rss">想问一下密保方式都有什么</source>
+      </item>
+  </channel>
+</rss>

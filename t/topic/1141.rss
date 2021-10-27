@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>這是法革共和曆嗎？</title>
+    <link>https://mlmmlm.icu/t/topic/1141</link>
+    <description>```
+#法蘭西共和國元年始於1792年9月22日午夜。
+#一年分为12个月，每月30天，每月分为3周，每周10天，每年第360天后设置闰日五天为公众假日（闰年设置六天）。
+#共和历的日制采用十进时，即十个小时等于一天，或一天拥有十个小时。对时和分的划分则为百进制，每小时分为100分钟，每分钟为100秒。与二十四进制的日制和六十进制的时制和秒制相比，原先一天为1440分钟或86400秒，而共和历的一天有1000分钟或100000秒。
+#由于新的制度少了440个分钟单位或者多出了13600个秒单位，因此共和历的一分钟应等于原先的86.4秒（比原先长44%），或者一秒只等于原先的0.864秒（比原先短13.6%）。 
+import time
+ss=((1792/4-12)*366+(1792-1792/4+12)*365+31+29+30+30+31+30+31+31+30+23)*24*60*60
+while True:
+    st=((2000/4-12)*366+(2000-2000/4+12)*365)*24*60*60+time.time()
+    st=st-ss
+    st=st/0.864
+    fr=[ss/100/100/10,(ss/100/100)%10,(ss/100)%100,ss%100]
+    year,month=0,0
+    def days(a):
+        global year,month
+        run=int(a/(365*3+366))
+        unrun=run*3
+        year=run+unrun
+        day=unrun*365+run*366
+        r=a-day
+        for z in range(3):
+            if r&gt;365:r=r-365;year+=1
+        if r&gt;365:runb=True
+        if r&gt;366:r=r-366;year+=1
+        for z in range(11):
+            if r&gt;30:r=r-30;month=abs(z+1-6)
+            else:month=1;break
+        if r&gt;30:
+            month=12
+            if runb:
+                if r&gt;36:r=r-36
+            elif r&gt;35:r=r-35
+        return r if r&gt;=1 else 1
+    d=days(st/100/100/10)
+    now=[year,month,int(d),int((st/100/100)%10),int((st/100)%100),st%100]
+    #print(fr)
+    print(now)
+    time.sleep(1)
+```</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 23 Oct 2021 13:37:48 +0000</lastBuildDate>
+    <category>技术</category>
+    <atom:link href="https://mlmmlm.icu/t/topic/1141.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>這是法革共和曆嗎？</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">#法蘭西共和國元年始於1792年9月22日午夜。
+#一年分为12个月，每月30天，每月分为3周，每周10天，每年第360天后设置闰日五天为公众假日（闰年设置六天）。
+#共和历的日制采用十进时，即十个小时等于一天，或一天拥有十个小时。对时和分的划分则为百进制，每小时分为100分钟，每分钟为100秒。与二十四进制的日制和六十进制的时制和秒制相比，原先一天为1440分钟或86400秒，而共和历的一天有1000分钟或100000秒。
+#由于新的制度少了440个分钟单位或者多出了13600个秒单位，因此共和历的一分钟应等于原先的86.4秒（比原先长44%），或者一秒只等于原先的0.864秒（比原先短13.6%）。 
+import time
+ss=((1792/4-12)*366+(1792-1792/4+12)*365+31+29+30+30+31+30+31+31+30+23)*24*60*60
+while True:
+    st=((2000/4-12)*366+(2000-2000/4+12)*365)*24*60*60+time.time()
+    st=st-ss
+    st=st/0.864
+    fr=[ss/100/100/10,(ss/100/100)%10,(ss/100)%100,ss%100]
+    year,month=0,0
+    def days(a):
+        global year,month
+        run=int(a/(365*3+366))
+        unrun=run*3
+        year=run+unrun
+        day=unrun*365+run*366
+        r=a-day
+        for z in range(3):
+            if r&gt;365:r=r-365;year+=1
+        if r&gt;365:runb=True
+        if r&gt;366:r=r-366;year+=1
+        for z in range(11):
+            if r&gt;30:r=r-30;month=abs(z+1-6)
+            else:month=1;break
+        if r&gt;30:
+            month=12
+            if runb:
+                if r&gt;36:r=r-36
+            elif r&gt;35:r=r-35
+        return r if r&gt;=1 else 1
+    d=days(st/100/100/10)
+    now=[year,month,int(d),int((st/100/100)%10),int((st/100)%100),st%100]
+    #print(fr)
+    print(now)
+    time.sleep(1)
+</code></pre>
+          <p><a href="https://mlmmlm.icu/t/topic/1141/1">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1141/1</link>
+        <pubDate>Sat, 23 Oct 2021 13:10:18 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1141-1</guid>
+        <source url="https://mlmmlm.icu/t/topic/1141.rss">這是法革共和曆嗎？</source>
+      </item>
+  </channel>
+</rss>

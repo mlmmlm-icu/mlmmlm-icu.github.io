@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>什么是凯恩斯主义文字版</title>
+    <link>https://mlmmlm.icu/t/topic/1049</link>
+    <description>自制
+见十楼
+https://mlmmlm.icu/t/topic/1049/10?u=news_porter</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 28 Sep 2021 12:21:28 +0000</lastBuildDate>
+    <category>文献 | 书籍</category>
+    <atom:link href="https://mlmmlm.icu/t/topic/1049.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <p>Windows 用我发的 Exiftool 可以把元数据清除得很干净。</p>
+<p>win系统自带的功能不太行，至少图片的元数据很多都清不了。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/13">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/13</link>
+        <pubDate>Tue, 28 Sep 2021 12:21:28 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-13</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[ismism123]]></dc:creator>
+        <description><![CDATA[
+            <p>win系统自带的删除元数据（删除属性和个人信息）是否会被恢复</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/12">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/12</link>
+        <pubDate>Tue, 28 Sep 2021 03:31:38 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-12</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[ismism123]]></dc:creator>
+        <description><![CDATA[
+            <p>我想知道如何查看PDF的元数据，以及如何删除这些数据。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/11">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/11</link>
+        <pubDate>Tue, 28 Sep 2021 02:36:20 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-11</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <p>我将 docx 文件导成了 pdf 文件，并使用 <a href="https://github.com/jfilter/pdf-scripts/blob/master/clean_metadata_pdf.sh">https://github.com/jfilter/pdf-scripts/blob/master/clean_metadata_pdf.sh</a> 提供的 shell 脚本去掉了敏感的元数据的同时保留了目录结构。见附件。</p>
+<p><a class="attachment" href="https://mlmmlm.icu/uploads/short-url/c4QcB99JelCSPhfuFA5e2Dm9T9K.pdf">凯恩斯主义批判.pdf</a> (1.7 MB)</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/10">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/10</link>
+        <pubDate>Sat, 25 Sep 2021 12:00:01 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-10</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[news_porter]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote quote-modified" data-post="1" data-topic="444">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/letter_avatar_proxy/v4/letter/a/58956e/40.png" class="avatar">
+    <a href="https://mlmmlm.icu/t/topic/444">希望大家上传各类文件到网络上时都清除元数据</a> <a class="badge-wrapper  bullet" href="https://mlmmlm.icu/c/9-category/9"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+  </div>
+  <blockquote>
+    希望大家上传各类文件到网络上时都清除元数据（metadata），不然后果是极其严重的。 
+下图是元数据一览：（提取自一张大家上传自论坛的图片，至于是哪一张我就不说了） 
+ <a class="lightbox" href="https://mlmmlm.icu/uploads/default/original/1X/9f0b720c5496aeeefb4f40099c9f04f78b76cc7a.png" data-download-href="https://mlmmlm.icu/uploads/default/9f0b720c5496aeeefb4f40099c9f04f78b76cc7a" title="1">[1]</a> 
+可以看到，拍摄照片的设备，拍摄时间，焦距等个人信息都一览无余。只是图片元数据的一部分，其他的我没有截图。 
+除了图片，PDF中也含有元数据。
+  </blockquote>
+</aside>
+
+<aside class="quote" data-post="3" data-topic="444">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/letter_avatar_proxy/v4/letter/n/839c29/40.png" class="avatar">
+    <a href="https://mlmmlm.icu/t/topic/444/3">希望大家上传各类文件到网络上时都清除元数据</a> <a class="badge-wrapper  bullet" href="https://mlmmlm.icu/c/9-category/9"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+  </div>
+  <blockquote>
+    <a class="attachment" href="https://mlmmlm.icu/uploads/short-url/8IsxwFhavMJcrgfOuQtp4QROxJ.7z">ExiftoolGUI.7z</a> (6.7 MB)
+  </blockquote>
+</aside>
+
+          <p><a href="https://mlmmlm.icu/t/topic/1049/9">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/9</link>
+        <pubDate>Sat, 25 Sep 2021 03:43:58 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-9</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[elaina]]></dc:creator>
+        <description><![CDATA[
+            <p>不错的稿件</p>
+<p>不过请问有没有批评哈耶克及奥派</p>
+<p>还有取消货币的理论呢</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/8">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/8</link>
+        <pubDate>Thu, 23 Sep 2021 17:04:20 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-8</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>元數據刪除網站這種東西屬於雲計算，是SaaSS，易被嗅探，沒有隱私、安全性。<br>
+面對如視頻這樣的大文件顯得無力。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/7">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/7</link>
+        <pubDate>Tue, 21 Sep 2021 20:09:35 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-7</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>有人說我有虛假記憶，看來記憶並不是虛假的，因為這文件的創建時間是2014年10月29日，這表明六年循環論的客觀實在。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/6">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/6</link>
+        <pubDate>Tue, 21 Sep 2021 19:59:00 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-6</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[Xuan_JunHe]]></dc:creator>
+        <description><![CDATA[
+            <p>感謝你的普及，讓我認識到PAPER是一份大陸刊物，難怪我和鍾翔宇逼宮的時候他們匆忙把PAPER清除所有元信息後全公開了。不過說實話，歷史發生一次是悲劇，發生第二次是笑劇。<br>
+PAPER的上傳時間和最後修改時間的元信息直到2020年11月才清空，這才是笑劇。<br>
+有點像列寧和唐吉訶德的關係。<br>
+METADATA我第一次接觸要麼是在市圖書館，要麼是在暗網的We Fight Censorship。<br>
+不過說實話，在接觸Libre Office以前<strong>我根本不會，也沒必要</strong>製作PDF。<br>
+Libre Office以及GIMP/PyPDF2等GNU PDF項目必須大普及，否則就會AABBY/Adobe上天，紅旗落地。</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/5">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/5</link>
+        <pubDate>Tue, 21 Sep 2021 19:57:14 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-5</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[midnight]]></dc:creator>
+        <description><![CDATA[
+            <p>那个作者是windows帐号还是wps帐号？最好也打码。</p>
+<p>不要用wps,改用自由软件libreoffice,paper一开始也用wps,把自己的帐号都泄露了，之后才改用libreoffice。</p>
+<p>在上传文件(pdf, docx, jpg等)之前要自己删除元数据，这个论坛并不自动删除，当然还是要养成不管上传到哪里都要删除元数据的习惯。<br>
+顺便推荐一个元数据删除网站 /metadata.systemli.org</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/4">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/4</link>
+        <pubDate>Tue, 21 Sep 2021 19:35:37 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-4</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[one_normal_one]]></dc:creator>
+        <description><![CDATA[
+            <p>我超，wps自己登陆了</p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/3">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/3</link>
+        <pubDate>Tue, 21 Sep 2021 14:29:20 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-3</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[azide]]></dc:creator>
+        <description><![CDATA[
+            <p>你出道了。<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://mlmmlm.icu/uploads/default/original/2X/3/3376d2df6f690a9117c2ced6a4b73ea067f8ce08.png" data-download-href="https://mlmmlm.icu/uploads/default/3376d2df6f690a9117c2ced6a4b73ea067f8ce08" title="image"><img src="https://mlmmlm.icu/uploads/default/original/2X/3/3376d2df6f690a9117c2ced6a4b73ea067f8ce08.png" alt="image" data-base62-sha1="7lgVDxVidkPdLZWW19phIiYsXVK" width="322" height="500" data-small-upload="https://mlmmlm.icu/uploads/default/optimized/2X/3/3376d2df6f690a9117c2ced6a4b73ea067f8ce08_2_10x10.png"></a></div><p></p>
+          <p><a href="https://mlmmlm.icu/t/topic/1049/2">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/2</link>
+        <pubDate>Tue, 21 Sep 2021 13:21:54 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-2</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+      <item>
+        <title>什么是凯恩斯主义文字版</title>
+        <dc:creator><![CDATA[one_normal_one]]></dc:creator>
+        <description><![CDATA[
+            <p>自制<br>
+见十楼</p><aside class="quote" data-post="10" data-topic="1049">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" src="/letter_avatar_proxy/v4/letter/n/839c29/40.png" class="avatar">
+    <a href="https://mlmmlm.icu/t/topic/1049/10">什么是凯恩斯主义文字版</a> <a class="badge-wrapper  bullet" href="https://mlmmlm.icu/c/7-category/7"><span class="badge-category-bg" style="background-color: #BF1E2E;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">文献 | 书籍</span></a>
+  </div>
+  <blockquote>
+    我将 docx 文件导成了 pdf 文件，并使用 <a href="https://github.com/jfilter/pdf-scripts/blob/master/clean_metadata_pdf.sh" rel="noopener nofollow ugc">https://github.com/jfilter/pdf-scripts/blob/master/clean_metadata_pdf.sh</a> 提供的 shell 脚本去掉了敏感的元数据的同时保留了目录结构。见附件。 
+<a class="attachment" href="https://mlmmlm.icu/uploads/short-url/c4QcB99JelCSPhfuFA5e2Dm9T9K.pdf">凯恩斯主义批判.pdf</a> (1.7 MB)
+  </blockquote>
+</aside>
+
+          <p><a href="https://mlmmlm.icu/t/topic/1049/1">阅读完整话题</a></p>
+        ]]></description>
+        <link>https://mlmmlm.icu/t/topic/1049/1</link>
+        <pubDate>Tue, 21 Sep 2021 11:09:39 +0000</pubDate>
+        <guid isPermaLink="false">mlmmlm.icu-post-1049-1</guid>
+        <source url="https://mlmmlm.icu/t/topic/1049.rss">什么是凯恩斯主义文字版</source>
+      </item>
+  </channel>
+</rss>

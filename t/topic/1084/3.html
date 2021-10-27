@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>求教网络安全问题 - #3，来自 midnight - 技术 - 马列毛群众</title>
+<meta name="description" content="各位亲爱的mlmmlm论坛的同志 
+看了你们的技术贴，我深深地感到利用好加密和自由软件是进行革命工作的必不可少的技能，但作为电脑小白（只会用付费翻墙软件的那种）我感觉自己还有很多不了解的地方，现在列举一些向你们请教： 
+1、VPN的供应商能&amp;hellip;">
+<meta name="generator" content="Discourse 2.8.0.beta6 - https://github.com/discourse/discourse version 98dcbd214c78d0ca81a0f6c82c02b39d3da2b5be">
+<link rel="icon" type="image/png" href="../../../uploads/default/optimized/1X/a33fc15368ea2a75e178ac1d0ba6c73f0ee2998c_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../../uploads/default/optimized/1X/a33fc15368ea2a75e178ac1d0ba6c73f0ee2998c_2_180x180.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="../1084.html" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://mlmmlm.icu","potentialAction":{"@type":"SearchAction","target":"https://mlmmlm.icu/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="../../../opensearch.xml" title="马列毛群众 Search">
+<link href="../../../stylesheets/desktop_4b13b15823dba62c3ec35036dc38ceeb4116cd13.css%3F__ws=mlmmlm.icu.css" media="all" rel="stylesheet" data-target="desktop" />
+<link href="../../../stylesheets/desktop_theme_2_22907eec945b5538c96b2de850d54d7658cdc1f5.css%3F__ws=mlmmlm.icu.css" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="light" />
+<link rel="alternate" type="application/rss+xml" title="&#39;求教网络安全问题&#39; 的 RSS Feed" href="../1084.rss" />
+<meta property="og:site_name" content="马列毛群众" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://mlmmlm.icu/uploads/default/original/1X/a33fc15368ea2a75e178ac1d0ba6c73f0ee2998c.png" />
+<meta property="og:image" content="https://mlmmlm.icu/uploads/default/original/1X/a33fc15368ea2a75e178ac1d0ba6c73f0ee2998c.png" />
+<meta property="og:url" content="https://mlmmlm.icu/t/topic/1084/3" />
+<meta name="twitter:url" content="https://mlmmlm.icu/t/topic/1084/3" />
+<meta property="og:title" content="求教网络安全问题" />
+<meta name="twitter:title" content="求教网络安全问题" />
+<meta property="og:description" content="首先，“安全”是一个系统性的东西，包含硬件、软件、加密、匿名、操作安全等等各个方面的大量的知识。只问一些小细节并做出改进并不能变得更“安全”。  第二，你的问题的问法并不好。比如   element、telegram这些软件安全吗？   “安全”指什么？是指通信协议的“安全”？还是指加密方式的“安全”？又或者是指运营商不收集用户信息？  你自己也提到你还有很多不了解的地方，所以你现在应该做的是从头学习，从基础概念例如“威胁模型”“安全、隐私和匿名之间的区别”这些，然后再学习不同环境下的策略、从零开始搭建一个安全的操作系统、各种安全软件的用法这些。  想你上面提出的这些在某一方面上具体的问题应该在对于对一些概念有所了解和针对自己所处的环境构建一个针对安全的大概的框架后再提出，否则别人也不知道如何回答才能帮到你。  ======  论坛上的一些文章：      一个完全且系统性的指南，从该基础概念到高级策略应有尽有，不过只有英语：  https://anonymousplanet.org/guide.html  ======  1、VPN的供应商能否定位用户呢？我个人用的Superfast..." />
+<meta name="twitter:description" content="首先，“安全”是一个系统性的东西，包含硬件、软件、加密、匿名、操作安全等等各个方面的大量的知识。只问一些小细节并做出改进并不能变得更“安全”。  第二，你的问题的问法并不好。比如   element、telegram这些软件安全吗？   “安全”指什么？是指通信协议的“安全”？还是指加密方式的“安全”？又或者是指运营商不收集用户信息？  你自己也提到你还有很多不了解的地方，所以你现在应该做的是从头学习，从基础概念例如“威胁模型”“安全、隐私和匿名之间的区别”这些，然后再学习不同环境下的策略、从零开始搭建一个安全的操作系统、各种安全软件的用法这些。  想你上面提出的这些在某一方面上具体的问题应该在对于对一些概念有所了解和针对自己所处的环境构建一个针对安全的大概的框架后再提出，否则别人也不知道如何回答才能帮到你。  ======  论坛上的一些文章：      一个完全且系统性的指南，从该基础概念到高级策略应有尽有，不过只有英语：  https://anonymousplanet.org/guide.html  ======  1、VPN的供应商能否定位用户呢？我个人用的Superfast..." />
+<meta property="article:published_time" content="2021-10-16T20:39:11+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+</head>
+<body class="crawler">
+<header>
+<a href="../../../index.html">
+<img src="../../../uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png" alt="马列毛群众" id="site-logo" style="max-width: 150px;">
+</a>
+</header>
+<div id="main-outlet" class="wrap">
+<div id="topic-title">
+<h1>
+<a href="../1084.html">求教网络安全问题</a>
+</h1>
+<div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="../../../c/9-category/9.html" class="badge-wrapper bullet" itemprop="item">
+<span class='badge-category-bg' style='background-color: #9EB83B'></span>
+<span class='badge-category clear-badge'>
+<span class='category-name' itemprop='name'>技术</span>
+</span>
+</a>
+<meta itemprop="position" content="1" />
+</span>
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/xjpssb.html'><span itemprop='name'>xjpssb</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-16T12:27:24Z' class='post-time'>
+2021 年10 月 16 日 12:27
+</time>
+<meta itemprop='dateModified' content='2021-10-16T12:27:24Z'>
+<span itemprop='position'>#1</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>各位亲爱的mlmmlm论坛的同志<br>
+看了你们的技术贴，我深深地感到利用好加密和自由软件是进行革命工作的必不可少的技能，但作为电脑小白（只会用付费翻墙软件的那种）我感觉自己还有很多不了解的地方，现在列举一些向你们请教：<br>
+1、VPN的供应商能否定位用户呢？我个人用的Superfast，有没有更安全的VPN呢？<br>
+2、element、telegram这些软件安全吗？<br>
+3、怎么获得虚拟手机号呢？<br>
+4、为了防止别人获得我的id除了用vpn还有什么要做的吗？<br>
+5、谷歌云盘和onedrive存文件安全吗？<br>
+6、在这里招募志同道合的同志安全吗？<br>
+预先感谢各位同志的解答！</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<meta itemprop='keywords' content=''>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="1" />
+<span class='post-likes'>1 个赞</span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/azide.html'><span itemprop='name'>azide</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-16T14:13:28Z' class='post-time'>
+2021 年10 月 16 日 14:13
+</time>
+<meta itemprop='dateModified' content='2021-10-16T14:13:28Z'>
+<span itemprop='position'>#2</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>1、VPN的供应商能否定位用户呢？我个人用的Superfast，有没有更安全的VPN呢？</p>
+</blockquote>
+</aside>
+<p>你的vpn提供商知道你的ip地址跟你浏览了什么网站。<br>
+处于安全考虑，不要用私有的协议。<br>
+不要在自己的计算机上运行私有的代理软件。<br>
+像v2fly这种开源的协议会比较安全。<br>
+如果想更加安全建议用tor上网。</p>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>2、element、telegram这些软件安全吗？</p>
+</blockquote>
+</aside>
+<p>相对地安全，但不及xmpp，但是我是不推荐使用IM来交流很敏感的信息，而是使用邮件。<br>
+是否安全取决于你自己泄露的信息。</p>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>3、怎么获得虚拟手机号呢？</p>
+</blockquote>
+</aside>
+<p>你可以考虑使用gvoice，在国内可以使用三件套</p>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>4、为了防止别人获得我的id除了用vpn还有什么要做的吗？</p>
+</blockquote>
+</aside>
+<p>不知道你说的id是指什么</p>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>5、谷歌云盘和onedrive存文件安全吗？</p>
+</blockquote>
+</aside>
+<p>上传敏感数据前先加密。</p>
+<aside class="quote no-group" data-username="xjpssb" data-post="1" data-topic="1084">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/x/ba9def/40.png" class="avatar"> xjpssb:</div>
+<blockquote>
+<p>6、在这里招募志同道合的同志安全吗？</p>
+</blockquote>
+</aside>
+<p>取决于你。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="0" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-16T20:39:11Z' class='post-time'>
+2021 年10 月 16 日 20:39
+</time>
+<meta itemprop='dateModified' content='2021-10-16T20:39:11Z'>
+<span itemprop='position'>#3</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>首先，“安全”是一个系统性的东西，包含硬件、软件、加密、匿名、操作安全等等各个方面的大量的知识。只问一些小细节并做出改进并不能变得更“安全”。</p>
+<p>第二，你的问题的问法并不好。比如</p>
+<blockquote>
+<p>element、telegram这些软件安全吗？</p>
+</blockquote>
+<p>“安全”指什么？是指通信协议的“安全”？还是指加密方式的“安全”？又或者是指运营商不收集用户信息？</p>
+<p>你自己也提到你还有很多不了解的地方，所以你现在应该做的是从头学习，从基础概念例如“威胁模型”“安全、隐私和匿名之间的区别”这些，然后再学习不同环境下的策略、从零开始搭建一个安全的操作系统、各种安全软件的用法这些。<br>
+想你上面提出的这些在某一方面上具体的问题应该在对于对一些概念有所了解和针对自己所处的环境构建一个针对安全的大概的框架后再提出，否则别人也不知道如何回答才能帮到你。</p>
+<p>======</p>
+<p>论坛上的一些文章：</p><aside class="quote" data-post="1" data-topic="261">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../user_avatar/mlmmlm.icu/msc/40/46_2.png" class="avatar">
+<a href="../261.html">编程随想博客推荐阅读</a> <a class="badge-wrapper  bullet" href="../../../c/9-category/9.html"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+</div>
+<blockquote>
+自由派大毒草，但是在会被赵弹打击这点上我们是共通的。
+</blockquote>
+</aside>
+<aside class="quote" data-post="1" data-topic="253">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../user_avatar/mlmmlm.icu/msc/40/46_2.png" class="avatar">
+<a href="../253.html">GnuPG的使用</a> <a class="badge-wrapper  bullet" href="../../../c/9-category/9.html"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+</div>
+<blockquote>
+参考 <a href="https://www.ruanyifeng.com/blog/2013/07/gpg.html" rel="noopener nofollow ugc">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a> 即可
+我没有什么要补充的。
+</blockquote>
+</aside>
+<aside class="quote quote-modified" data-post="1" data-topic="263">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/a/58956e/40.png" class="avatar">
+<a href="../263.html">GNU/Linux 基础——在谈论线上秘密工作前，我们应该遵守的大前提</a> <a class="badge-wrapper  bullet" href="../../../c/9-category/9.html"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+</div>
+<blockquote>
+自由操作系统的重要性——在谈论线上秘密工作前，我们应该遵守的大前提
+刊载于《PAPER》十二月下，以下为杂志内原编者按。
+编者按：我们此前委托熟悉技术的同志们写一些工作指南性的文章，这是第一个成果，我们衷心感谢同志们的辛劳付出。如果要领导推翻资产阶级统治的运动，那就必须学会秘密地工作，这是列宁同志在《怎么办》中明确指出的。在当代，学会使用安全的工具是学会秘密工作的重要组成部分，必须学会使用之。如…
+</blockquote>
+</aside>
+<aside class="quote" data-post="1" data-topic="311">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../letter_avatar_proxy/v4/letter/a/58956e/40.png" class="avatar">
+<a href="../311.html">XMPP加密通讯简明教程</a> <a class="badge-wrapper  bullet" href="../../../c/9-category/9.html"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+</div>
+<blockquote>
+之前马列之声的<a href="https://www.bilibili.com/read/cv992625/" rel="noopener nofollow ugc">教程</a>已经说得很详细了，我稍加修改一下发上来。
+</blockquote>
+</aside>
+<p><strong>一个完全且系统性的指南，从该基础概念到高级策略应有尽有，不过只有英语：<br>
+<a href="https://anonymousplanet.org/guide.html" rel="noopener nofollow ugc">https://anonymousplanet.org/guide.html</a></strong></p>
+<p>======</p>
+<p>1、VPN的供应商能否定位用户呢？我个人用的Superfast，有没有更安全的VPN呢？<br>
+上边那位同志的回答就可以，不过你要了解VPN(例如superfast)、代理软件（例如v2ray）和匿名网络（例如tor）之间的区别/</p>
+<p>2、element、telegram这些软件安全吗？<br>
+对于我们用户来说，通信协议之间的区别对安全性造成的影响是很小的。<br>
+相反，主要的问题是体现在操作安全上的，例如聊天时泄漏了个人信息、使用与实名帐号一样的用户名与头像等等。<br>
+要想安全的使用IM还是需要操作安全。</p>
+<p>telegram需要手机号来注册，并且上面遍地网警，不推荐。<br>
+element需要邮箱帐号来注册。<br>
+xmpp注册不需要任何东西。</p>
+<p>3、怎么获得虚拟手机号呢？<br>
+<a href="https://jmp.chat" class="onebox" target="_blank" rel="noopener nofollow ugc">https://jmp.chat</a><br>
+好处是可以用加密货币付款，信息会转发到你的xmpp帐号，不需要任何实名的东西。</p>
+<p>4、为了防止别人获得我的id除了用vpn还有什么要做的吗？<br>
+VPN只能掩盖IP地址，想要做到匿名还要做到很多例如用户信息、UA、匿名的电话号码和邮箱验证、使用匿名网络（tor）等等。</p>
+<p>5、谷歌云盘和onedrive存文件安全吗？<br>
+太笼统了不知该怎么回答。<br>
+敏感文件可以设置压缩包密码或使用gpg加密。</p>
+<p>6、在这里招募志同道合的同志安全吗？<br>
+学有所成后，你自己就可以分析这样做是否安全，并做出行动。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="3" />
+<span class='post-likes'>3 个赞</span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/790803.html'><span itemprop='name'>790803</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-17T02:12:00Z' class='post-time'>
+2021 年10 月 17 日 02:12
+</time>
+<meta itemprop='dateModified' content='2021-10-17T02:12:00Z'>
+<span itemprop='position'>#4</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>我们使用的element是用虚拟邮箱注册的，其次也解绑了，这样是否在某方面还具有风险？</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+ <meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/xjpssb.html'><span itemprop='name'>xjpssb</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-17T09:10:52Z' class='post-time'>
+2021 年10 月 17 日 09:10
+</time>
+<meta itemprop='dateModified' content='2021-10-17T09:10:52Z'>
+<span itemprop='position'>#5</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>同志我要学习相关的知识只需要看这篇英语文章就足够了吗？还需要学什么其他的吗</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-17T09:41:14Z' class='post-time'>
+2021 年10 月 17 日 09:41
+</time>
+<meta itemprop='dateModified' content='2021-10-17T09:41:14Z'>
+<span itemprop='position'>#6</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>在那方面基本没风险。<br>
+不过，因为绑定导致身份泄漏还是少数情况，IM主要还是要靠操作安全。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="0" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-17T09:52:50Z' class='post-time'>
+2021 年10 月 17 日 09:52
+</time>
+<meta itemprop='dateModified' content='2021-10-17T09:52:50Z'>
+<span itemprop='position'>#7</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>基本上就够了，毕竟我们需要的是行动的指南。再深奥的的大部分只是学术上的，并不能指导行动。</p>
+<p>再学习便是和中国所特有环境相关的一些知识，那篇文章毕竟讲的是一般环境下的策略。中国的环境是一般环境的特殊形式，就要研究这个特殊形式的规律。<br>
+可惜我并没有找到很好的资料，只能从博文中的一小段或IM聊天中找到一些零散的信息。<br>
+可以看看https://mlmmlm.icu/t/topic/261中与中国特殊环境有关的博文。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/cocuj331.html'><span itemprop='name'>cocuj331</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T08:20:36Z' class='post-time'>
+2021 年10 月 22 日 08:20
+</time>
+<meta itemprop='dateModified' content='2021-10-22T08:20:36Z'>
+<span itemprop='position'>#8</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>请不要宣扬实用主义的观点，保密工作是一个体系，要想做好它必须认真对待，把它当成一整个体系来学习，不能只盯着具体应用看。因为只盯着具体应用，而不去深入研究这些应用背后的底层技术，就只能知道这些技术“有用”，而无法搞清它们为什么“有用”，可是没有一项技术是永远能领先，永远不会淘汰的，如果只盯着眼前的技术应用，而不去学习你认为的所谓“学术上的，并不能指导行动”的，那么所能解决的就只能是眼前的问题，随着局势的变化，形势的发展，不加深认识，新的问题如何解决？通过感觉经验吗？明明是有系统的科学的，只是它们需要提前体系学习。况且就算是利用已有的应用本身，不系统学习其背后的底层技术，就不能很好地利用该应用，甚至错误地利用了技术应用，以至于造成危险，比如在使用 tor 时，不清楚 tor 网络需要通过网桥才能连接，错误地先连接 VPN 等代理服务，再在代理的基础上连接 tor 网络，这样首先就会损害 tor 的匿名性，如果这 VPN 还是中帝的钓鱼 VPN 那使用 tor 也完全不能匿名化了，造成被捕的结果也是有可能的。</p>
+<p>学习信息技术和我们对待马克思主义是一样，马克思主义也是一个体系，能直接指导实践工作的差不多已经是科学社会主义的内容了，但科学社会主义上的做法是怎么来的？它背后的原理是什么？不研究马克思主义政治经济学，不研究马克思主义哲学就不能明白。在不明白原理的情况下，向他人传播理论，理论就是不彻底的，“理论不彻底，就不能服人”，对于我们自己来说，这种不彻底的理论不能帮助我们认清问题，而“没有革命的理论就没有革命的行动”。</p>
+<p>现代密码算法、互联网技术底层、GNU/Linux 系统底层，以及更深层次的计算机架构，信号学知识，大都不能直接直到革命的保密工作实践，但革命的保密工作为什么要这么开展，不搞清楚这些，就不能以彻底的理论服人，这个人首先是自己，当自己由于认识局限而胡思乱想时，修正主义、机会主义的思想就开始滋生了。</p>
+<p>而如果是认为群众水平低，所以就不应该让他们接受彻底的革命的理论，而是照着群众水平如何就如何，毫无疑问已经是尾巴主义的了，一时间水平不能提得很高不是大问题，比现有水平高一些，慢慢提高就好，但慢慢提高不应该设限，尽管事实上不是所有人都能最终达到很高的水平，但其中必然有人能达到很高的水平，如果我们一上来就宣传这种实用主义的观点，那么无继续大幅度提升水平以达到非常高水平自觉的人就不会选择大步走向进步，有这种自觉的人也很有可能被这种实用主义的思想带偏，走向机会主义。</p>
+<p>要求群众很快就能面面俱到地去系统学校计算机科学当然是不现实的，但也只能说在一段时间内实现不了，但这不代表不应该提这种要求，实际上就应该提出要最终彻底掌握信息技术这样的要求，最终掌握要多少年？这个实际上并没有限制，就如同没有限制要多少年实现共产主义一样，不能说因为一时间实现不了共产主义，要求肃清私有制彻底实现共产主义就是不现实的。</p>
+<p>群众能学到怎样的程度受制于各种条件的限制，但至少不应该要求他们浅尝辄止，至少不应该宣扬实用主义的观点，按照群众的保密技术的知识水平的高低传播保密技术是当然的，但不能因为他们水平低就给他们设一个低的限度，不能因为其中部分人水平的确非常低，就搞实用主义，只要求他们掌握最低底线的，并宣扬最低底线的就够了，完全不够，随着工作的推进，很快就会不够。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="3" />
+<span class='post-likes'>3 个赞</span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="2" />
+</div>
+<div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+<div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+<a href="../711/12.html" itemscope itemtype='http://schema.org/DiscussionForumPosting' itemprop='item'>
+<meta itemprop='url' content='https://mlmmlm.icu/t/topic/711/12'>
+<span itemprop='name'>软件自由与路线问题</span>
+</a>
+<meta itemprop='position' content='1'>
+</div>
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T10:24:56Z' class='post-time'>
+2021 年10 月 22 日 10:24
+</time>
+<meta itemprop='dateModified' content='2021-10-22T10:38:56Z'>
+<span itemprop='position'>#9</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p><a class="mention" href="../../../u/cocuj331.html">@cocuj331</a> 同志说的很好，我在回复时确实忘记了那些比较远的基础知识，只提到了安全方面的基础知识，这是我的不对。<br>
+我所说的“学术上的，不能指导行动的”并不是指基础知识，而是指那些鸡毛蒜皮的小细节，比如linux系统上很小的一点，就会有威胁模型不同的两派在吵。我在网上见到不少这样的东西，既浪费时间又没什用。</p>
+<p>至于同志说的Tor over 中帝VPN的情况，我要补充一下以便技术不足的同志理解。中帝VPN破坏tor的匿名性并不是通过监听传输，而是直接渗透tor程序。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="1" />
+<span class='post-likes'>1 个赞</span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T10:38:30Z' class='post-time'>
+2021 年10 月 22 日 10:38
+</time>
+<meta itemprop='dateModified' content='2021-10-22T10:43:35Z'>
+<span itemprop='position'>#10</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>我对现代密码算法、互联网技术底层、GNU/Linux 系统底层，以及更深层次的计算机架构，信号学知识等都不太了解。<br>
+关于这些同志有什么推荐吗</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="2" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/Xuan_JunHe.html'><span itemprop='name'>Xuan_JunHe</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T11:19:24Z' class='post-time'>
+2021 年10 月 22 日 11:19
+</time>
+<meta itemprop='dateModified' content='2021-10-22T11:36:17Z'>
+<span itemprop='position'>#11</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p><a href="https://framatube.org/c/fsf_channel" class="onebox" target="_blank" rel="noopener nofollow ugc">https://framatube.org/c/fsf_channel</a><br>
+<a href="https://framatube.org/a/fsf/video-channels" class="onebox" target="_blank" rel="noopener nofollow ugc">https://framatube.org/a/fsf/video-channels</a></p><aside class="quote" data-post="1" data-topic="253">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="../../../user_avatar/mlmmlm.icu/msc/40/46_2.png" class="avatar">
+<a href="../253/index.html">GnuPG的使用</a> <a class="badge-wrapper  bullet" href="../../../c/9-category/9.html"><span class="badge-category-bg" style="background-color: #9EB83B;"></span><span style="" data-drop-close="true" class="badge-category clear-badge">技术</span></a>
+</div>
+<blockquote>
+参考 <a href="https://www.ruanyifeng.com/blog/2013/07/gpg.html" rel="noopener nofollow ugc">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a> 即可
+我没有什么要补充的。
+</blockquote>
+</aside>
+<p><a href="https://gnupg.org/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://gnupg.org/</a><br>
+<a href="https://beijinglug.club/wiki/doku.php?id=docs:membership" class="onebox" target="_blank" rel="noopener nofollow ugc">https://beijinglug.club/wiki/doku.php?id=docs:membership</a><br>
+<a href="https://en.wikipedia.org/w/index.php?title=ActivityPub&amp;type=revision&amp;diff=1050145799&amp;oldid=1050136810" class="onebox" target="_blank" rel="noopener nofollow ugc">https://en.wikipedia.org/w/index.php?title=ActivityPub&amp;type=revision&amp;diff=1050145799&amp;oldid=1050136810</a><br>
+<a href="https://zh.wikipedia.org/w/index.php?title=ActivityPub&amp;type=revision&amp;diff=68218369&amp;oldid=68218310" class="onebox" target="_blank" rel="noopener nofollow ugc">https://zh.wikipedia.org/w/index.php?title=ActivityPub&amp;type=revision&amp;diff=68218369&amp;oldid=68218310</a><br>
+<a href="https://en.wikipedia.org/wiki/ActivityPub" class="onebox" target="_blank" rel="noopener nofollow ugc">https://en.wikipedia.org/wiki/ActivityPub</a><br>
+<a href="https://zh.wikipedia.org/zh-tw/ActivityPub" class="onebox" target="_blank" rel="noopener nofollow ugc">https://zh.wikipedia.org/zh-tw/ActivityPub</a><br>
+<a href="https://en.wikipedia.org/wiki/Fediverse/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://en.wikipedia.org/wiki/Fediverse/</a><br>
+<a href="https://gnu.org/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://gnu.org/</a><br>
+<a href="https://www.gnupg.org/gph/en/manual/c14.html" class="onebox" target="_blank" rel="noopener nofollow ugc">https://www.gnupg.org/gph/en/manual/c14.html</a><br>
+<a href="https://www.fsf.org/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://www.fsf.org/</a><br>
+<a href="https://mstdn.one/@list" class="onebox" target="_blank" rel="noopener nofollow ugc">https://mstdn.one/@list</a><br>
+<a href="https://mastodon.online/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://mastodon.online/</a><br>
+<a href="https://joinpeertube.org/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://joinpeertube.org/</a><br>
+<a href="https://peertube.su/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://peertube.su/</a><br>
+<a href="https://peertube.fr/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://peertube.fr/</a><br>
+<a href="https://gitlab.com/" class="onebox" target="_blank" rel="noopener nofollow ugc">https://gitlab.com/</a><br>
+<a href="https://hostux.social/@fsf" class="onebox" target="_blank" rel="noopener nofollow ugc">https://hostux.social/@fsf</a><br>
+<a href="https://hostux.social/@endDRM" class="onebox" target="_blank" rel="noopener nofollow ugc">https://hostux.social/@endDRM</a><br>
+<a href="https://mastodon.sdf.org/@beijinglug" class="onebox" target="_blank" rel="noopener nofollow ugc">https://mastodon.sdf.org/@beijinglug</a><br>
+<a href="https://mastodon.social/@fsfe" class="onebox" target="_blank" rel="noopener nofollow ugc">https://mastodon.social/@fsfe</a><br>
+省會圖書館<br>
+不使用中帝VPN即可。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T11:20:47Z' class='post-time'>
+2021 年10 月 22 日 11:20
+</time>
+<meta itemprop='dateModified' content='2021-10-22T11:20:47Z'>
+<span itemprop='position'>#12</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>那些链接都不是基础知识，再来省会图书馆不是所有人都能看，有没有网络资源？</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="0" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/cocuj331.html'><span itemprop='name'>cocuj331</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T11:48:52Z' class='post-time'>
+2021 年10 月 22 日 11:48
+</time>
+<meta itemprop='dateModified' content='2021-10-22T11:52:27Z'>
+<span itemprop='position'>#13</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>你说的直接渗透 tor 这个当然也有，但是按照我说的操作，先挂一个 VPN ，然后再在挂了 VPN 的基础上再去访问 tor 网络，这种操作本身就会破坏使用 tor 的安全性和匿名性。</p>
+<p>密码学算法、信号学、互联网技术均可以通过学习大学教材实现，但是 GNU/Linux 系统、C语言这些就别学大学教材了（谭浩强c语言，一言难尽……），C语言的教科书里《C primer plus》其实不错，GNU/Linux 教程可以直接看 Debian 的用户手册。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/msc.html'><span itemprop='name'>msc</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T11:59:32Z' class='post-time'>
+2021 年10 月 22 日 11:59
+</time>
+<meta itemprop='dateModified' content='2021-10-22T11:59:32Z'>
+<span itemprop='position'>#14</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>做中学，善于利用搜索引擎。</p>
+<p>给几个关键字<br>
+“非对称加密”<br>
+“TCP/IP”<br>
+IP帧格式，TCP报文格式<br>
+Socket<br>
+socks<br>
+NAT映射</p>
+<p>我觉得大概知道这些就行了。</p>
+<p>你可以去看一看CrashCourse的Computer Science 。<br>
+关于计算机的知识，完全可以在网络上找到。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T12:00:46Z' class='post-time'>
+2021 年10 月 22 日 12:00
+</time>
+<meta itemprop='dateModified' content='2021-10-22T12:00:46Z'>
+<span itemprop='position'>#15</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p><a class="mention" href="../../../u/msc.html">@msc</a> 这些我都知道，但按那位同志所说这些完全不够</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/msc.html'><span itemprop='name'>msc</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T12:02:03Z' class='post-time'>
+2021 年10 月 22 日 12:02
+</time>
+<meta itemprop='dateModified' content='2021-10-22T12:02:03Z'>
+<span itemprop='position'>#16</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>想要更深了解就找书来看</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="0" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/midnight.html'><span itemprop='name'>midnight</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T12:03:02Z' class='post-time'>
+2021 年10 月 22 日 12:03
+</time>
+<meta itemprop='dateModified' content='2021-10-22T12:08:50Z'>
+<span itemprop='position'>#17</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>tor over vpn自然比不上meek网桥，但我不是很明白你说的“如果这 VPN 还是中帝的钓鱼 VPN 那使用 tor 也完全不能匿名化了”。<br>
+请问具体这个钓鱼vpn要怎么在传输层面去匿名化</p>
+<p>那几个方面的大学教材我是有的只是一直没时间看，既然同志说大学教材就够了我就不打扰了。<br>
+我的回复也是把保密工作当成一个体系看待，只是同志认为广度应该更广，这点我也认同，谢谢教导。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="0" />
+<span class='post-likes'></span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+<meta itemprop="userInteractionCount" content="1" />
+</div>
+</div>
+<div itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+<div class='crawler-post-meta'>
+<div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+<meta itemprop='name' content='马列毛群众'>
+<div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop='url' content='https://mlmmlm.icu/uploads/default/original/1X/c7a55769823a013b64a3537f903ab64eff32e4a4.png'>
+</div>
+</div>
+<span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href='../../../u/cocuj331.html'><span itemprop='name'>cocuj331</span></a>
+</span>
+<link itemprop="mainEntityOfPage" href="../1084.html">
+<span class="crawler-post-infos">
+<time itemprop='datePublished' datetime='2021-10-22T16:26:13Z' class='post-time'>
+2021 年10 月 22 日 16:26
+</time>
+<meta itemprop='dateModified' content='2021-10-22T16:26:13Z'>
+<span itemprop='position'>#18</span>
+</span>
+</div>
+<div class='post' itemprop='articleBody'>
+<p>钓鱼 VPN 的问题其实解决起来主要不是保密技术问题，而是社会工程学问题，只要不去使用那些有问题的 VPN 节点就好，比如 github 还有其他网站上风险的所谓免费 VPN 尽量不要考虑，因为这些 VPN 的安全性完全没有任何保障，所以不用就好。</p>
+<p>教导还谈不上，只能说互相学习吧。</p>
+</div>
+<meta itemprop='headline' content='求教网络安全问题'>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/LikeAction" />
+<meta itemprop="userInteractionCount" content="1" />
+<span class='post-likes'>1 个赞</span>
+</div>
+<div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+<meta itemprop="interactionType" content="http://schema.org/CommentAction" />
+ <meta itemprop="userInteractionCount" content="0" />
+</div>
+</div>
+</div>
+<footer class="container wrap">
+<nav class='crawler-nav'>
+<ul>
+<li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+<span itemprop='name'>
+<a href='../../../index.html' itemprop="url">首页 </a>
+</span>
+</li>
+<li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+<span itemprop='name'>
+<a href='../../../categories.html' itemprop="url">类别 </a>
+</span>
+</li>
+<li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+<span itemprop='name'>
+<a href='../../../guidelines.html' itemprop="url">常见问题解答/准则 </a>
+</span>
+</li>
+<li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+<span itemprop='name'>
+<a href='../../../tos.html' itemprop="url">服务条款 </a>
+</span>
+</li>
+<li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+<span itemprop='name'>
+<a href='../../../privacy.html' itemprop="url">隐私政策 </a>
+</span>
+</li>
+</ul>
+</nav>
+<p class='powered-by-link'>由 <a href="https://www.discourse.org">Discourse</a> 提供技术支持，启用 JavaScript 以获得最佳体验</p>
+</footer>
+</body>
+</html>
