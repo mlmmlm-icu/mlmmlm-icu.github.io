@@ -49,3 +49,6 @@ if __name__ == '__main__':
 
 ```
 
+This is a example file the script generated.
+https://github.com/mlmmlm-icu/mlmmlm-icu-bcakup-1/blob/main/t/topic/index.html
+
