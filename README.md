@@ -4,7 +4,7 @@ this repo is a back up of site mlmmlm.icu
 
 to fix page switching problem and generate index.html please run:
 
-```
+``` python
 import os
 import re
 
