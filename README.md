@@ -30,7 +30,9 @@ def main():
                 print(fullname)
                 fin = open(fullname, "rt", encoding="utf-8")
                 data = fin.read()
-                data = data.replace('%3Fpage=', '_page=')  # fix "上一页" "下一页"
+                
+                if os.name == 'nt':
+                    data = data.replace('%3Fpage=', '_page=')  # fix "上一页" "下一页"
 
                 title = re.search("<title>(.+?)</title>", data).group(1)
                 index_content += "<a href='{}'>{}</a></br></br>".format("file:///" + fullname, title)
