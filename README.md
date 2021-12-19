@@ -1,3 +1,7 @@
+# static website
+
+https://mlmmlm-icu.github.io/
+
 # mlmmlm-icu-bcakup-1
 
 this repo is a back up of site mlmmlm.icu
